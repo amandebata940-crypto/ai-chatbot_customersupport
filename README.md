@@ -90,7 +90,3 @@ venv/
 __pycache__/
 chatbot_logs.db
 ```
-so you don't commit your virtual environment or local database file.
-
-Then share the GitHub link (or a LinkedIn post about it) plus your name to
-vaishali@codectechnologies.in as required.
