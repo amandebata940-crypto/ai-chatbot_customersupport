@@ -70,23 +70,4 @@ ai-chatbot/
   commented-out `TransformerFAQChatbot` class at the bottom of `chatbot.py` for
   a drop-in upgrade using sentence-transformers.
 
-## Publishing to GitHub
 
-```
-git init
-git add .
-git commit -m "AI-powered FAQ chatbot with NLP, Flask, SQLite"
-```
-Create a new repo on GitHub, then:
-```
-git remote add origin https://github.com/<your-username>/ai-chatbot.git
-git branch -M main
-git push -u origin main
-```
-
-Add a `.gitignore` with at least:
-```
-venv/
-__pycache__/
-chatbot_logs.db
-```
